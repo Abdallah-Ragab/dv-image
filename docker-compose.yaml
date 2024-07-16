@@ -1,0 +1,10 @@
+version: 3
+services:
+  minio:
+    image: quay.io/minio/minio
+    container_name: minio
+    ports:
+      - "9000:9000"
+      - "9090:9090"
+    volumes:
+      - ./minio-data:/data
