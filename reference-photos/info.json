@@ -1,0 +1,178 @@
+{
+    "criteria": [
+        {
+            "id": 1,
+            "name": "Shadows and Lighting",
+            "examples": [
+                {
+                    "id": 1,
+                    "acceptable": 1,
+                    "name": "1.1.1",
+                    "Explanation": "he image is clear, reproduces skin tones accurately, and does not have shadows."
+                },
+                {
+                    "id": 2,
+                    "acceptable": 0,
+                    "name": "1.2.0",
+                    "Explanation": "Photo is underexposed"
+                },
+                {
+                    "id": 3,
+                    "acceptable": 0,
+                    "name": "1.3.0",
+                    "Explanation": "The color is not accurate"
+                },
+                {
+                    "id": 4,
+                    "acceptable": 1,
+                    "name": "1.4.1",
+                    "Explanation": "The image is clear, reproduces skin tones accurately, and does not have shadows"
+                },
+                {
+                    "id": 5,
+                    "acceptable": 0,
+                    "name": "1.5.0",
+                    "Explanation":"he photo includes shadows on the customer's face and background."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Pose and Expression",
+            "examples": [
+                {
+                    "id": 1,
+                    "acceptable": 1,
+                    "name": "5.1.1",
+                    "Explanation": "The customer is directly facing the camera with a neutral expression. Eyes are clearly visible."
+                },
+                {
+                    "id": 2,
+                    "acceptable": 0,
+                    "name": "5.2.0",
+                    "Explanation": "The customer is looking down, and the head is tilted forward."
+                },
+                {
+                    "id": 3,
+                    "acceptable": 0,
+                    "name": "5.3.0",
+                    "Explanation": "The customer's facial expression is not neutral"
+                },
+                {
+                    "id": 4,
+                    "acceptable": 0,
+                    "name": "5.4.0",
+                    "Explanation": "The customer's head is rotated, and the shoulders are not square to the camera."
+                },
+                {
+                    "id": 5,
+                    "acceptable": 0,
+                    "name": "5.5.0",
+                    "Explanation": "The customer's head is tilted to the side."
+                },
+                {
+                    "id": 6,
+                    "acceptable": 0,
+                    "name": "5.6.0",
+                    "Explanation": "The customer's eyes are closed."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Attire, Hats, and Glasses",
+            "examples": [
+                {
+                    "id": 1,
+                    "acceptable": 1,
+                    "name": "6.1.1",
+                    "Explanation": "The customer's full face is visible, and no shadows or clothing block the face."
+                },
+                {
+                    "id": 2,
+                    "acceptable": 1,
+                    "name": "6.2.1",
+                    "Explanation": "The customer's full face is visible in the image. The customer is not wearing glasses."
+                },
+                {
+                    "id": 3,
+                    "acceptable": 0,
+                    "name": "6.3.0",
+                    "Explanation": "Take off your glasses and make sure they are not resting on your head."
+                },
+                {
+                    "id": 4,
+                    "acceptable": 0,
+                    "name": "6.4.0",
+                    "Explanation": "The customer's head covering blocks part of the face, and there are shadows on the face."
+                },
+                {
+                    "id": 5,
+                    "acceptable": 0,
+                    "name": "6.5.0",
+                    "Explanation": "Take off your sunglasses before you get a photo."
+                },
+                {
+                    "id": 6,
+                    "acceptable": 0,
+                    "name": "6.6.0",
+                    "Explanation": "The customer's scarf covers a portion of the face."
+                },
+                {
+                    "id": 7,
+                    "acceptable": 0,
+                    "name": "6.7.0",
+                    "Explanation": "Take off your hat before you get a photo."
+                },
+                {
+                    "id": 8,
+                    "acceptable": 0,
+                    "name": "6.8.0",
+                    "Explanation": "The customer's hair blocks a portion of the face."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Background",
+            "examples": [
+                {
+                    "id": 1,
+                    "acceptable": 1,
+                    "name": "7.1.1",
+                    "Explanation": "The background is white or off-white, without shadows, and is plain without texture, objects, or lines."
+                },
+                {
+                    "id": 2,
+                    "acceptable": 0,
+                    "name": "7.2.0",
+                    "Explanation": "The background is not plain and has texture and lines."
+                },
+                {
+                    "id": 3,
+                    "acceptable": 0,
+                    "name": "7.3.0",
+                    "Explanation": "The background is blue."
+                },
+                {
+                    "id": 4,
+                    "acceptable": 0,
+                    "name": "7.4.0",
+                    "Explanation": "The background is not plain, and is not white or off-white."
+                },
+                {
+                    "id": 5,
+                    "acceptable": 1,
+                    "name": "7.5.1",
+                    "Explanation": "The background is white or off-white, free of shadows, and is plain without texture or lines."
+                },
+                {
+                    "id": 6,
+                    "acceptable": 1,
+                    "name": "7.6.1",
+                    "Explanation": "The customer is sitting in a wheelchair, and part of the wheelchair's head support is in the image."
+                }
+            ]
+        }
+    ]
+}
