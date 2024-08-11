@@ -1,0 +1,15 @@
+- User Can Upload Their Photo
+- Photo has to be checked to match the requirements
+    -  Person must be directly facing the camera
+       -  Shoulders are straight and not turned or tilted.
+       -  Head is straight and not tilted.
+    -  Face must have a neutral expression
+    -  Eyes are clearly visible.
+    -  No shadows or clothing block the face.
+    -  The person may not wear hats or head coverings, except for religious or medical purposes.
+    -  The background is white or off-white, without shadows, and is plain without texture, objects, or lines.
+    -  1:1 aspect ratio
+    -  Minimum acceptable dimensions are 600 x 600 pixels.
+    -  Maximum acceptable dimensions are 1200 x 1200 pixels.
+    -  The image must be less than or equal to 240 kB.
+    -  The compression ratio should be less than or equal to 20:1.
